@@ -288,7 +288,7 @@ The controller will log the full computed jump plan before executing it, e.g. ta
 ## 👤 Author
 
 **Jose Segura Montes** — Bachelor's Thesis (TFG), Degree in Electronics, Robotics and Mechatronics, Universidad de Málaga, [2026]
-📧 jose.segura.montes@gmail.com · 🔗 [LinkedIn] · 🔗 [Portfolio]
+📧 jose.segura.montes@gmail.com · 🔗 [LinkedIn](www.linkedin.com/in/jose-segura-montes) · 🔗 [Portfolio](https://portfolio-github-8fqt.vercel.app)
 
 ---
 

@@ -105,8 +105,6 @@ flowchart LR
 | **Spring pack** | 4 extension/compression springs arranged as **2 in series + 2 in parallel**, sized to store the energy required for the target jump range while keeping the required compression within the mechanism's physical travel limit. |
 | **Chassis** | Designed to tilt (pitch) on command — the take-off angle needed for an efficient jump is achieved by actively inclining the chassis rather than adding an extra actuator. |
 
-> *(Add SolidWorks renders / exploded views / photos of the physical prototype here.)*
-
 <p align="center">
   <img src="docs/media/cad.PNG" width="500" alt="CAD render" />
 </p>

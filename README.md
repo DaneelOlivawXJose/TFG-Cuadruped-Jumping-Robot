@@ -19,7 +19,8 @@
 ## 📽️ Demo
 
 <p align="center">
-  <img src="docs/media/demo.gif" width="600" alt="Robot jump demo" />
+  <img src="docs/media/demo.gif" width="45%" alt="Robot jump demo" />
+  <img src="docs/media/demo_h.jpg" width="45%" alt="Robot jump height" />
 </p>
 
 ---
@@ -30,7 +31,7 @@ This repository contains the full mechatronic development of my **Final Degree T
 
 The project was developed end-to-end, across every layer a real robotic product needs:
 
-- **Physical modeling** — the robot's geometry, leg kinematics and jump dynamics were derived analytically (not black-boxed), so the software controls a system whose behavior is *understood*, not just tuned by trial and error.
+- **Physical modeling** — the robot's geometry, leg kinematics and jump dynamics were derived analytically, so the software controls a system whose behavior is *understood*, not just tuned by trial and error.
 - **Mechanical design** (CAD, linkage synthesis, spring sizing) — SolidWorks.
 - **Embedded firmware** (deterministic servo actuation bridge) — ESP32 + micro-ROS + Arduino.
 - **Robot software / control** (inverse kinematics, gait generation, jump physics solver, finite-state machine) — ROS 2, C++.
@@ -107,8 +108,7 @@ flowchart LR
 > *(Add SolidWorks renders / exploded views / photos of the physical prototype here.)*
 
 <p align="center">
-  <img src="docs/media/cad_render.png" width="45%" alt="CAD render" />
-  <img src="docs/media/leg_mechanism.png" width="45%" alt="Leg linkage detail" />
+  <img src="docs/media/cad.PNG" width="500" alt="CAD render" />
 </p>
 
 ---
@@ -265,22 +265,16 @@ The controller will log the full computed jump plan before executing it, e.g. ta
 
 ## 📊 Mechanism Results
 
-> *(Fill in with your measured results — these numbers are exactly what makes the project concrete and credible to reviewers.)*
-
 | Metric | Value |
 |---|---|
-| Target jump height range tested | **TBD** (e.g. 2–6 cm) |
-| Maximum controlled jump height achieved | **TBD** |
-| Jump height accuracy (measured vs. commanded) | **TBD** |
+| Target jump height range tested | **2-6cm** (e.g. 2–6 cm) |
+| Maximum controlled jump height achieved | **6cm** |
+| Mechanism efficiency | **75%** |
+| Jump height accuracy (measured vs. commanded) | **99,6%** |
 | Jump distance / direction range | **TBD** |
-| Spring-loading time (typical) | **TBD** (derived from `movimiento_servo_`, ms) |
-| Full jump sequence duration (load → launch → recover) | **TBD** |
-| Walking speed | **TBD** |
-| Turning radius | **TBD** |
-| Total robot mass | **TBD** |
-| Battery life / autonomy | **TBD** |
-
-If available, include a short **height-vs-accuracy plot** (commanded height on X, measured height on Y) — a single chart like this is often the most convincing piece of evidence in the whole repository.
+| Spring-loading time (typical) | **7s** (derived from `movimiento_servo_`, ms) |
+| Full jump sequence duration (load → launch → recover) | **15s** |
+| Total robot mass | **370g** |
 
 ---
 
@@ -295,8 +289,8 @@ If available, include a short **height-vs-accuracy plot** (commanded height on X
 
 ## 👤 Author
 
-**[Your Name]** — Bachelor's Thesis (TFG), [Your Degree], [Your University], [Year]
-📧 [your email] · 🔗 [LinkedIn] · 🔗 [Portfolio]
+**Jose Segura Montes** — Bachelor's Thesis (TFG), Degree in Electronics, Robotics and Mechatronics, Universidad de Málaga, [2026]
+📧 jose.segura.montes@gmail.com · 🔗 [LinkedIn] · 🔗 [Portfolio]
 
 ---
 
